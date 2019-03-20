@@ -11,3 +11,4 @@ CREATE OR REPLACE FUNCTION get_default_owner() RETURNS "user" AS $$
 		RETURN defaultOwner;
 	END
 $$ LANGUAGE PLPGSQL;
+
